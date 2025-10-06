@@ -1,0 +1,20 @@
+# Java
+*.class
+*.jar
+*.war
+*.log
+
+# Eclipse
+.settings/
+.project
+.classpath
+
+# STS / Spring Tool Suite
+.springBeans
+
+# Build
+/target/
+
+# OS
+.DS_Store
+Thumbs.db
