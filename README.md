@@ -39,3 +39,31 @@ src/
 │ ├── application.properties
 │ └── static/
 │ └── index.html
+
+
+
+
+
+---
+
+## 🗄️ Database Setup (MySQL)
+
+### 📌 Database Name: `insurance_db`  
+### 📌 Table Name: `insurance`
+
+### 🔧 SQL to Create Database and Table
+
+1. Open MySQL and run:
+
+```sql
+CREATE DATABASE insurance_db;
+
+USE insurance_db;
+
+CREATE TABLE insurance (
+    policy_id INT PRIMARY KEY AUTO_INCREMENT,
+    policy_number VARCHAR(50),
+    policy_holder VARCHAR(100),
+    policy_amount DECIMAL(10,2),
+    status VARCHAR(20)
+);
